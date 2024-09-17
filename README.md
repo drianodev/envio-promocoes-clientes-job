@@ -23,10 +23,10 @@ spring.datasource.username=user
 spring.datasource.password=123456
 ```
 
-#### Banco de Dados `fatura_cartao_credito`
+#### Banco de Dados `promocoes_clientes`
 
 ```properties
-app.datasource.jdbcUrl=jdbc:mysql://localhost:3307/fatura_cartao_credito
+app.datasource.jdbcUrl=jdbc:mysql://localhost:3307/promocoes_clientes
 app.datasource.username=user
 app.datasource.password=123456
 ```
