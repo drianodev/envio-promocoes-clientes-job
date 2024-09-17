@@ -1,0 +1,22 @@
+services:
+  db:
+    image: mysql:5.7
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: spring_batch
+      MYSQL_USER: user
+      MYSQL_PASSWORD: 123456
+
+  db2:
+    image: mysql:5.7
+    ports:
+      - "3307:3306"
+    volumes:
+      - ./init:/docker-entrypoint-initdb.d
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: promocoes_clientes
+      MYSQL_USER: user
+      MYSQL_PASSWORD: 123456
