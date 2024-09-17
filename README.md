@@ -56,7 +56,7 @@ Para compilar e executar o projeto, use o Maven:
 
 ```bash
 mvn clean install
-java -jar target/fatura-cartao-credito-job-1.0-SNAPSHOT.jar
+java -jar target/promocoes_clientes-job-1.0-SNAPSHOT.jar
 ```
 
 ### Visualização no Email
